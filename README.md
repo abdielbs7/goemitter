@@ -32,7 +32,7 @@ package main
 
 import (     
 	"fmt"    
-	"github.com/abdielbs7/goemitter" 
+	goemitter "github.com/abdielbs7/goemitter" 
 )
 
 func main() {     
@@ -169,7 +169,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/abdielbs7/goemitter" 
+	goemitter "github.com/abdielbs7/goemitter" 
 )
 
 type Notification struct {
@@ -224,7 +224,7 @@ package main
 import (
 	"fmt"
 	"time"
-	"github.com/abdielbs7/goemitter"
+	goemitter "github.com/abdielbs7/goemitter"
 )
 
 type AuditEvent struct {
