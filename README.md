@@ -154,7 +154,8 @@ emitter.AddEmitHook(
 // Obtener métricas actuales 
 metrics := emitter.GetMetrics() 
 fmt.Printf("Eventos emitidos: %d\n", metrics.EventsEmitted) 
-fmt.Printf("Listeners ejecutados: %d\n", metrics.ListenersExecuted) fmt.Printf("Pánicos recuperados: %d\n", metrics.PanicsRecovered) fmt.Printf("Latencia promedio: %v\n", metrics.AverageLatency) 
+fmt.Printf("Listeners ejecutados: %d\n", metrics.ListenersExecuted) fmt.Printf("Pánicos recuperados: %d\n", metrics.PanicsRecovered)
+fmt.Printf("Latencia promedio: %v\n", metrics.AverageLatency) 
 fmt.Printf("Workers activos: %d\n", metrics.ActiveWorkers)
 ```
 
