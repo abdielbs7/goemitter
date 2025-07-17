@@ -41,7 +41,7 @@
 //			log.Printf("Panic recovered: %v", err)
 //		}),
 //	)
-package GoEmitter
+package goemitter
 
 import (
 	"context"

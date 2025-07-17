@@ -1,4 +1,4 @@
-package GoEmitter
+package goemitter
 
 import (
 	"context"
